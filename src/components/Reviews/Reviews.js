@@ -6,7 +6,16 @@ import './Reviews.css'
 const Reviews = () => {
     const [reviews,setReview]=useReviewData()
     return (
-        
+        <div className='review-column'>
+            {
+                reviews.map(review=><Review 
+                    review={review}
+                    key={review.id}
+                    ></Review>)
+            }
+            
+        </div>
+
     );
 };
 
