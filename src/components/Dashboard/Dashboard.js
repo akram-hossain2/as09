@@ -6,7 +6,9 @@ const Dashboard = () => {
     const [datas,setData]=useDataChart();
     
     return (
-        
+        <div>
+            <Chart datas={datas}></Chart>
+        </div>
     );
 };
 
