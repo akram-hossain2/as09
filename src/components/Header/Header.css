@@ -1,0 +1,26 @@
+.header-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(222, 224, 188);
+    padding: 20px;
+    
+    
+}
+
+.header-box h1 {
+    margin-right: 30px;
+    color: rgb(79, 56, 109);
+}
+
+.header-box nav {
+    display: flex;
+
+}
+
+.route-style {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+   
+}
