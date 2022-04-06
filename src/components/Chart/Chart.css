@@ -1,0 +1,16 @@
+.chart {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .chart-child {
+    position: relative;
+} */
+
+.draw {
+    margin: 0px 0px 0px 300px;
+
+
+}

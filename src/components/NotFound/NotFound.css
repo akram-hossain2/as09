@@ -1,0 +1,10 @@
+
+
+.notFound {
+    background-color: rgb(45, 47, 47);
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

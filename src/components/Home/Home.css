@@ -1,0 +1,51 @@
+.pick-up-line h1 {
+    font-size: 40px;
+    margin: 0px;
+}
+
+.pick-up-line p {
+    font-size: 20px;
+}
+
+.pick-up-line {
+    width: 50%;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.intro img {
+    width: 400px;
+    height: 500px;
+}
+
+.live-demo {
+    padding: 8px;
+    border-radius: 10px;
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: 10px 10px 10px grey;
+    background-color: aqua;
+}
+
+.card {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    box-shadow: 10px 10px 10px grey;
+}
+
+.show-button {
+    background-color: rgb(248, 0, 0);
+    width: 200px;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 200px;
+    border-radius: 30px;
+    padding: 10px;
+}
